@@ -1,0 +1,59 @@
+<!Doctype html>
+<html>
+<head>
+<title>TheCoffeePlace: Feedback</title>
+<style>
+body{
+	background-color: #FFE5CC;
+	text-align: center;
+	font-family: comic sans ms;
+}
+</style>
+</head>
+<body>
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ24J25wHnfIOrrKJ-VyiOB-rqZoIcLVXQic4Q5Rd1DfBeFUJ4bzA" height="75" width="75">
+<font size="8" color="#A0522D"> The coffee place </font><br>
+   <table align=center cellspacing="15">
+   <form enctype="multiple/form-data" action="feedback1.php" method = "post">
+   <tr>
+   <td>First name: </td><td><input type="text" name="FirstName" placeholder="Eg Mickey" autofocus  required><br>
+   </td>
+   <td rowspan="5">
+   <input type="radio" name="s" value="1" required>1 star<br><br>
+   <input type="radio" name="s" value="2" required>2 star<br><br>	
+   <input type="radio" name="s" value="3" required>3 star<br><br>
+   <input type="radio" name="s" value="4" required>4 star<br><br>	
+   <input type="radio" name="s" value="5" required>5 star<br><br>
+   </tr>
+   <tr>
+   <td>Last name: </td><td><input type="text" name="LastName" placeholder="Eg Mouse" autofocus required><br></td>
+   </tr> 
+   <tr>
+   <td>Email_Id: </td> 
+   <td colspan=2 align="left"><input size=20 type="Email" name="Email" placeholder="example@something.com" required></td>
+   </tr>
+   
+   <tr>
+   <td>Phone No.: </td> 
+   <td colspan=2 align="left"><input size=20 type="Phone" name="Phone" placeholder="8888888888" pattern="[0-9]{10}" required></td>
+   </tr>
+   
+   <tr>
+   <td>Comment: </td> 
+   <td><input type="text" name="Comments" size = 100 required><br></td>
+   </tr>   
+   <tr>
+   <td><input type="Submit" value="Submit"><input type="reset" value="reset"><br></td>
+   </tr>
+   
+   </form>
+   </table>
+   FOLLOW US ON OUR SOCIAL MEDIA TO KNOW OFFERS AND MORE.<br>
+   <a href="https://www.instagram.com/rdoshi29/"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHsAAAB7CAMAAABjGQ9NAAAAYFBMVEUAAAD///+UlJR4eHiXl5fc3Nzw8PDS0tLLy8vHx8dtbW0LCwspKSmrq6t9fX2np6eOjo64uLhycnJUVFQYGBgTExNFRUWysrJAQECEhIT4+Pg2Njafn58xMTFaWlplZWUcX7/aAAAE8UlEQVRogcWb7ZqCIBCFcRVKLSut1Nat+7/LzURUnGHA9OH8281842sYDsACZz14XEZhcj9cU5ZeD/ckjMqYP9xfxNwe55e6ujFIt6q+8M3YYl9XKcjtlVb1XqzPfuzyXyO312++s61+O7aIKitwpyqyK7wNm+cO4E65TdPT7F3hTG5V7L5m89cicqsXVXYzW9Tmjm1WWpvb3ciOD1+QWx3ihWzh3sXmyg1Fx9kxHL9cdcOLjrKzVcitMke2WDawYBVIvcNs/m0nm+oAjzaQHX8zsiClYKND7MvK5FYXO/ZxAzRjRxv2NmgIPmNvUeGdZtWus+PN0IzpHU5j87V7+FgpN7HFuuNa10EY2GtGM0gFzl4vhmPKMPaW/axXDLMFOmn+PcPzj73O4fMPe9VNgGwsVXi65Pt9OfZP5G05xEZqvKLzTVg7JKUfal2xkeF1XkhudQbfOAw0xa7BB09foIPgBL6z1tlwQPum1K3Akqvw1rPBJUD1JToIwDZ/Tdk7sHaWdrNBxvdKNhhMn64kflEqZcWCQ60Yszn48/au7Gj05bL71x58Mx+xwbDy5xxSmtG3ZaYgwAiXD2wB/jjnKp+MqT5LgeObUOwI/DxchR2C74569gOOfu6DG2LDwa16SDY8ENjPKuwf+OU7yUYmsE3ZeccWiHm1KftXfNjwEFzCHi8rCHYbPBg2g23Nrj9szLbbtM7beYrhywF3Nm+a5iTVT5QY+z2TMnwB5s6GhLHfFcPQ5t6aXb/ZqEtLsHmZF0WRl4R7iLKrgD3QrNzI5ol6LjHSUfbtweCpm2JPo3RteBJlv8n4QsjAvmuP3pewY1YuYOtoExxnlwyeu0fs5pV0ekVghXfqJ9wo6Z9uKHbE4Ll9xB5mORmq4B4iO9wQLXKKHbIE/Uyy1Y9LZf4GfyPpPhQqSoYUO2HztsPYT1OxVcFVfkay7wx3WHR2ptfqVLJFlHdBsg/sas1utL81yfZVeTLJvjLc1NLZR61SNcnFhprDSbbJTtPZslIxL6rQmoRkm+hIuQm2S7md2xsblIl7ezv3cywIl+79fO3xrUwEi/HtM66R8Xx4IDYVXBZ7mJJJdkjPYwNbFs04jw2VQrIjev4e2Mogmg+z3iAeJdwku6TzllGjqBW5Dlfe9PxhU95C5mvjDqGMp2m1q5X6eDVNsjmdp47Zg+EG56njfJtiv/NUMj+fDISR987L5J2fJ+P8fOL9U+zKYl0yHYQmg3Vqn1Ls2mI9pgUAHK45txT7YrEO1YMPtp2tb7YQ7M86lFp/zwIf6ObPnXqCXdn4DkDQDfUVGIceMrNrG78FCvhpEg+Gp4gTqNkI9t7GZ0Imm/SVNcfLscleSH8xs6XPRPhr+ERnlpkt/TXCV9yG3fuKZj916UalHIuEn2r2keHNHlonU7UpH9nsn8Mf0pIDgfLPzfsGyypd+iDkvgGxX2J3UHGqX/lder+E2CdyL7lyf+h9Imp/TJyy0F7ZSQU9m/0xeF/QYB9ZClx5aPuCXvdDfe4De93/xvb974v3/ZFVJrDv7/W8A3HOI7LXgnMePs+3eD3X4/U8k9dzXD7Pr3k9t+f1vKLXc5pez6d6PZfr9Tyy13PYXs+fBz7P3Qde7xt4vWcR+LxfEni9VxP4vE/Uyt89qk/Zvd0fa+Xv3lwrf/cFP/J2T1LK1/3QXqvdi/0HMMhDQJ5kO7EAAAAASUVORK5CYII=" 
+   width="40" height="40"></a>
+   <a href="mailto:rdoshi29@gmail.com"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHoAAAB6CAMAAABHh7fWAAAAYFBMVEUAAAD////k5OTQ0dHz8/MmJiazs7TZ2dmSkpJmZmYuLi4VFRV/f386Ojr8/Pzc3N2+vr7t7e11dXZDQ0QzMzNTU1NOTk5cXFweHh6hoaGtra7Ly8tvb3CJiYkQEBGYmJhgl2s1AAADn0lEQVRoge3b2YKyIBQA4CNptkwSmkvZ8v5v+VvJAYtSDqT/hedmZpzyi1WWgAAjEZwvfhgx55yFyoP2JzuVGxghovzGO3R42Y7htnFmio5HSbCKai9pPmaSn1E/6eQwugyReNCr8WWAvzstqinoLWvo/RQywLKh02noc0Nn09C7AKYp6qawBYhpZGhgNhXNZnqmZ3qmf0hHP4zrV3ojwt/F+jutDdG9x0zP9Dt9W3mIy55Cs247pEVBy3DmPgs80zLcg31OqHTAdk5y2pGH0Sfho7zPMh3Mgk7z0N1ey9QuMgv6D0qZV+R5fx7gHQ5WNJRY3kRZfnZWNfMrK1q1SE6ZlWFucwBrGtayvGN7e92pK9a0apXWNso8AhKt2iW3q+dKfvZJBPq+2NK2DxtZ1bC2N6TQWtscLmP9ZLKcSLRmD81z7BHUnWk0pGgP61tKWc7aSgmRVnWtHiKrVqU99ag0XCxsTDPTVz/JtKrnvbaq2511Vzqt7J6VxcIsu9ADbZRF1P2HC63GWF9s1ape24ITDate29SqvNC9doF1+30850j32GpEZVjudaXhJu2l4eaY26aFZmcaLh/tHdZt4z6KOw3HDzbmdmju593pTM0POnaurpu3FJzpQgQqTup6qeQgMb7Tlc5YEJjszicKElO6HeldR1D2LuxeTs6+6Y1Mszh1bOxJRPzZdqK3WIczVc/Des/x9x0s5O9vTduF3sjcDu/tFm0VYTMmuaK9fnm7A32QiQvzx9/LN/nRb1fSDktf9Ablor1y6sqivX7lZptMH7ACqRse9fUCjoVbMaNNpTEpif7WUn6eIDlqI/QIbf3RSaVRfinA7FZzHi9fuhC0E62eE2ljmr/ExpBuGh1bylq3p2wKXdWyRAfLTZ6/DVgoNMpW++vZ6zCNQKP8YejQbx+INFXW7YpE02X9gUahXeQm3TgViaxpXEK/UGRtGsQ3lvTSUdbsRWWzUJnio+lGlQHWaBcWNA4+jnRZm57aLEp7SPM91p2bWdGOssMGhFNuPyOl0Te4bl2js+UznF7EHmKRUGjvMdP/FX2Yjq5Oy99F8ZUeMWZ6pmd6pmd6pmd6MC18fLWLEFcBYdT/sl9EFEKQT0PnAUxzzua+WQh23/vwF4v78aKy/3X+I3+cbJok2fXzKJmHebRt3LeFHwfoRrdXiaSDuuh/ub/Inmty8rBk/ZeN0q1dd2ndzvZBzcYEi395QvRxSpRp25P/AOxwQJa28QqkAAAAAElFTkSuQmCC" 
+   width="40" height="40"></a>
+   <a href="https://www.zomato.com/chennai/the-coffee-place-guindy"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPMMjtg07Sj7o4pISlSWpMyW5rkKK5Jmv2NF8sz-E6F25ldp5x"
+   width="40" height="40">
+</body>
+</html>
